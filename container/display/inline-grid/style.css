@@ -1,0 +1,12 @@
+body {
+	background-color: #000000
+}
+
+.demo {
+	display: inline-grid;
+}
+
+img {
+	height: 100px;
+	width : 100px;
+}

@@ -1,0 +1,14 @@
+body {
+	background-color: #000000
+}
+
+.demo {
+	display: grid;
+	grid-template-columns: 25% 25% auto auto;
+	grid-template-rows: 25% auto 25%;
+}
+
+img {
+	height: 100px;
+	width : 100px;
+}
