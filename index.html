@@ -2,10 +2,253 @@
 <html>
 <head>
 	<title>GRID CheatSheet</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-	<iframe src="./container/display/grid/index.html"></iframe>
+	
+	<h1>CSS-GRID Properties</h1>
+	<div class = "container">
+		<h2>container</h2>
+		<br>
+		<br>
+		<div class = "container">
+			<h4>display</h4>
+			<div class = "row">
+				<div class = "col-sm-3">
+					<iframe src="./container/display/1/index.html"></iframe>
+					<a href = "./container/display/1/index.html" target="blank"><p>display: grid;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./container/display/2/index.html"></iframe>
+					<a href = "./container/display/2/index.html" target="blank"><p>display: inline-grid;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./container/display/3/index.html"></iframe>
+					<a href = "./container/display/3/index.html" target="blank"><p>display: subgrid;</p></a>
+				</div>
+			</div>
+
+			<h4>grid-template</h4>
+			<div class = "row">
+				<div class = "col-sm-3">
+					<iframe src="./container/grid-template/1/index.html"></iframe>
+					<a href = "./container/grid-template/1/index.html" target="blank"><p>grid-template-columns: 15px 15px 15px 15px;<br>grid-template-rows: 15px 15px 15px 15px;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./container/grid-template/2/index.html"></iframe>
+					<a href = "./container/grid-template/2/index.html" target="blank"><p>grid-template-columns: repeat(4, 15px);<br>grid-template-rows: repeat(4, auto);</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./container/grid-template/3/index.html"></iframe>
+					<a href = "./container/grid-template/3/index.html" target="blank"><p>grid-template-columns: 10px auto auto 10px;<br>grid-template-rows: 10px auto 12px auto;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./container/grid-template/4/index.html"></iframe>
+					<a href = "./container/grid-template/4/index.html" target="blank"><p>grid-template-columns: 25% 25% auto auto;<br>grid-template-rows: 25% auto auto 25%;</p></a>
+				</div>
+			</div>
+
+			<h4>grid-gap</h4>
+			<div class = "row">
+				<div class = "col-sm-3">
+					<iframe src="./container/grid-gap/1/index.html"></iframe>
+					<a href = "./container/grid-gap/1/index.html" target="blank"><p>grid-row-gap: 5px;<br>grid-column-gap: 10px;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./container/grid-gap/2/index.html"></iframe>
+					<a href = "./container/grid-gap/2/index.html" target="blank"><p>grid-gap : 5px 10px;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./container/grid-gap/3/index.html"></iframe>
+					<a href = "./container/grid-gap/3/index.html" target="blank"><p>grid-gap: 20px;</p></a>
+				</div>
+			</div>
+
+			<h4>justify-items</h4>
+			<div class = "row">
+				<div class = "col-sm-3">
+					<iframe src="./container/justify-items/1/index.html"></iframe>
+					<a href = "./container/justify-items/1/index.html" target="blank"><p>justify-items : start;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./container/justify-items/2/index.html"></iframe>
+					<a href = "./container/justify-items/2/index.html" target="blank"><p>justify-items : end</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./container/justify-items/3/index.html"></iframe>
+					<a href = "./container/justify-items/3/index.html" target="blank"><p>justify-items : center;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./container/justify-items/4/index.html"></iframe>
+					<a href = "./container/justify-items/4/index.html" target="blank"><p>justify-items : stretch;<br>(isn't clear in the example due to fixed image size.)</p></a>
+				</div>
+			</div>
+
+			<h4>justify-content</h4>
+			<div class = "row">
+				<div class = "col-sm-3">
+					<iframe src="./container/justify-content/1/index.html"></iframe>
+					<a href = "./container/justify-content/1/index.html" target="blank"><p>justify-content : start;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./container/justify-content/2/index.html"></iframe>
+					<a href = "./container/justify-content/2/index.html" target="blank"><p>justify-content : end</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./container/justify-content/3/index.html"></iframe>
+					<a href = "./container/justify-content/3/index.html" target="blank"><p>justify-content : center;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./container/justify-content/4/index.html"></iframe>
+					<a href = "./container/justify-content/4/index.html" target="blank"><p>justify-content : stretch;<br>(isn't clear in the example due to fixed image size.)</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./container/justify-content/5/index.html"></iframe>
+					<a href = "./container/justify-content/5/index.html" target="blank"><p>justify-content : space-around;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./container/justify-content/6/index.html"></iframe>
+					<a href = "./container/justify-content/6/index.html" target="blank"><p>justify-content : space-between;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./container/justify-content/7/index.html"></iframe>
+					<a href = "./container/justify-content/7/index.html" target="blank"><p>justify-content : space-evenly;</p></a>
+				</div>
+			</div>
+			
+			<h4>grid-auto-flow</h4>
+			<div class = "row">
+				<div class = "col-sm-3">
+					<iframe src="./container/grid-auto-flow/1/index.html"></iframe>
+					<a href = "./container/grid-auto-flow/1/index.html" target="blank"><p>grid-auto-flow: row;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./container/grid-auto-flow/2/index.html"></iframe>
+					<a href = "./container/grid-auto-flow/2/index.html" target="blank"><p>grid-auto-flow: column;<br>(notice the color change)</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./container/grid-auto-flow/3/index.html"></iframe>
+					<a href = "./container/grid-auto-flow/3/index.html" target="blank"><p>grid-auto-flow: dense;</p></a>
+				</div>
+			</div>
+
+		<br>
+		<br>
+		<br>
+
+		<h2>children</h2>
+		<br>
+		<br>
+		<div class = "container">
+			<h4>grid-column</h4>
+			<div class = "row">
+				<div class = "col-sm-3">
+					<iframe src="./children/grid-column/1/index.html"></iframe>
+					<a href = "./children/grid-column/1/index.html" target="blank"><p>grid-column-start: 1;<br>grid-column-end: 3;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./children/grid-column/2/index.html"></iframe>
+					<a href = "./children/grid-column/2/index.html" target="blank"><p>grid-column-start: span 4;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./children/grid-column/3/index.html"></iframe>
+					<a href = "./children/grid-column/3/index.html" target="blank"><p>grid-column-start: 2;<br>grid-column-end: 6;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./children/grid-column/4/index.html"></iframe>
+					<a href = "./children/grid-column/4/index.html" target="blank"><p>grid-column: 3 / 4;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./children/grid-column/5/index.html"></iframe>
+					<a href = "./children/grid-column/5/index.html" target="blank"><p>grid-column: 3 /span 3;</p></a>
+				</div>
+			</div>
+
+			<h4>grid-row</h4>
+			<div class = "row">
+				<div class = "col-sm-3">
+					<iframe src="./children/grid-row/1/index.html"></iframe>
+					<a href = "./children/grid-row/1/index.html" target="blank"><p>grid-column-start: 1;<br>grid-column-end: 3;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./children/grid-row/2/index.html"></iframe>
+					<a href = "./children/grid-row/2/index.html" target="blank"><p>grid-column-start: span 5;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./children/grid-row/3/index.html"></iframe>
+					<a href = "./children/grid-row/3/index.html" target="blank"><p>grid-column-start: 2;<br>grid-column-end: 5;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./children/grid-row/4/index.html"></iframe>
+					<a href = "./children/grid-row/4/index.html" target="blank"><p>grid-column: 1 / 5;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./children/grid-row/5/index.html"></iframe>
+					<a href = "./children/grid-row/5/index.html" target="blank"><p>grid-column: 1 /span 4;</p></a>
+				</div>
+			</div>			
+
+			<h4>grid-row+grid-column</h4>
+			<div class = "row">
+				<div class = "col-sm-3">
+					<iframe src="./children/grid-row+grid-column/1/index.html"></iframe>
+					<a href = "./children/grid-row+grid-column/1/index.html" target="blank"><p>grid-row: 1 / span 2;<br>grid-column: 1 / span 2;</a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./children/grid-row+grid-column/2/index.html"></iframe>
+					<a href = "./children/grid-row+grid-column/2/index.html" target="blank"><p>grid-row: 3 / span 3;<br>	grid-column: 3 / span 2;</p></a>
+				</div>
+			</div>
+
+			<h4>justify-self</h4>
+			<div class = "row">
+				<div class = "col-sm-3">
+					<iframe src="./children/justify-self/1/index.html"></iframe>
+					<a href = "./children/justify-self/1/index.html" target="blank"><p>justify-self: start;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./children/justify-self/2/index.html"></iframe>
+					<a href = "./children/justify-self/2/index.html" target="blank"><p>justify-self: end;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./children/justify-self/3/index.html"></iframe>
+					<a href = "./children/justify-self/3/index.html" target="blank"><p>justify-self: center;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./children/justify-self/4/index.html"></iframe>
+					<a href = "./children/justify-self/4/index.html" target="blank"><p>justify-self: stretch;</p></a>
+				</div>				
+			</div>
+
+			<h4>align-self</h4>
+			<div class = "row">
+				<div class = "col-sm-3">
+					<iframe src="./children/align-self/1/index.html"></iframe>
+					<a href = "./children/align-self/1/index.html" target="blank"><p>align-self: start;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./children/align-self/2/index.html"></iframe>
+					<a href = "./children/align-self/2/index.html" target="blank"><p>align-self: end;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./children/align-self/3/index.html"></iframe>
+					<a href = "./children/align-self/3/index.html" target="blank"><p>align-self: center;</p></a>
+				</div>
+				<div class = "col-sm-3">
+					<iframe src="./children/align-self/4/index.html"></iframe>
+					<a href = "./children/align-self/4/index.html" target="blank"><p>align-self: stretch;</p></a>
+				</div>				
+			</div>
+
+		</div>		
+
+
+		</div>
+	</div> 
+
+
+
 
 </body>
 </html>

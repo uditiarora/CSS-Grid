@@ -1,0 +1,27 @@
+body {
+	background-color: #000000;
+}
+
+.demo {
+	display: grid;
+	grid-template-columns: repeat(4,auto);
+	grid-template-rows: repeat(4,auto);
+}
+
+.special {
+	height: 15px;
+
+}
+
+.bigger {
+	width: 15px;
+}
+
+.extra{
+	justify-self: start;
+}
+
+img {
+	height: 10px;
+	width: 10px;
+}

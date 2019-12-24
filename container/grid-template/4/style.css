@@ -5,10 +5,10 @@ body {
 .demo {
 	display: grid;
 	grid-template-columns: 25% 25% auto auto;
-	grid-template-rows: 25% auto 25%;
+	grid-template-rows: 25% auto auto 25%;
 }
 
 img {
-	height: 100px;
-	width : 100px;
+	height: 10px;
+	width: 10px;
 }

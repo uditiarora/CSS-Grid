@@ -4,11 +4,11 @@ body {
 
 .demo {
 	display: grid;
-	grid-template-columns: repeat(4, 150px);
+	grid-template-columns: repeat(4, 15px);
 	grid-template-rows: repeat(4, auto);
 }
 
 img {
-	height: 100px;
-	width : 100px;
+	height: 10px;
+	width: 10px;
 }
