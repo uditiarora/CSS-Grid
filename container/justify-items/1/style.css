@@ -1,0 +1,15 @@
+body {
+	background-color: #000000
+}
+
+.demo {
+	display: grid;
+	grid-template-columns: repeat(4,auto);
+	grid-template-rows: repeat(4,auto);
+	justify-items : start;
+}
+
+img {
+	height: 100px;
+	width : 100px;
+}
